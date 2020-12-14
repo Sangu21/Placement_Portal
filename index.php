@@ -28,7 +28,7 @@
         <div class="topnav" >
          <nav class=" navbar  fixed-top navbar-toggleable-md navbar-expand-lg scrolling-navbar double-nav  "id="topnav">
          <div class="name" >
-              <h4 style="color:white"><a href="index.html">Let's Get Hired</a></h4>
+              <h4 style=" color:white"><a href="index.html">Let's Get Hired</a></h4>
             </div>
            <ul class=" nav navbar-nav nav-flex-icons ml-auto ">
              <li class="nav-item dropdown">
@@ -57,7 +57,7 @@
             </div>
 
             <div class="username">
-              <h4>Username</h4>
+              <h4><?php echo "$username" ?></h4>
             </div>
             <nav class="main-nav" role="navigation">
               <ul class="main-menu">
